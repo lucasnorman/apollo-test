@@ -1,0 +1,7 @@
+{
+    "watch": ["server/**/*.ts", "server/**/*.graphql"],
+    "ignore": [".git", "node_modules"],
+    "execMap": {
+        "ts": "ts-node --project ./tsconfig.json"
+    }
+}

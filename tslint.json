@@ -1,0 +1,26 @@
+{
+    "extends": ["tslint:latest"],
+    "rules": {
+		// override tslint-react rules here
+		"indent": [
+			true,
+			"tabs",
+			4
+		  ],
+        "jsx-wrap-multiline": false,
+        "jsx-alignment": true,
+        "jsx-curly-spacing": "always",
+        "jsx-equals-spacing": "always",
+        "jsx-no-bind": true,
+        "jsx-no-lambda": true,
+        "jsx-no-string-ref": true,
+        "jsx-self-close": true,
+        "jsx-no-multiline-js": false,
+        // override specific ts rules here
+        "max-line-length": false,
+        "no-submodule-imports": false,
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "member-access": [true, "no-public"],
+        "no-console": false
+    }
+}

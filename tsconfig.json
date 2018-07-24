@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "noUnusedParameters": false,
+        "module": "commonjs",
+        "outDir": "production-server/",
+        "lib": ["es2015"]
+    },
+    "include": ["server/**/*.ts"]
+}
